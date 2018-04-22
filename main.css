@@ -52,6 +52,19 @@ h1{
     margin: 10px;
 }
 
+/*.desktop-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin bottom: 40px;
+}*/
+
+.desktop-banner{
+    width: 100%;
+    max-height: 849px;
+}
+
 .twnty{
     width: 20%;
     display: flex;
@@ -68,11 +81,13 @@ h1{
         max-width: 95%;
         margin: auto;
         padding: 20px 0;
-        background-color: rgba(0, 255, 255, 0.397);
+        background-color: rgba(0, 255, 255, 0.027);
     }
 
     .nav{
         display: none;
     }
+
+    
 
 }
