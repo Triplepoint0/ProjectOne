@@ -1,5 +1,13 @@
-#strip{
+html{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#strip{
     padding: 15px 0;
     background-color: #f4f5f5;
     font-size: 11.25px;
@@ -18,18 +26,22 @@
 h1{
     font-size: 50px;
 }
-
+h3.motto{
+    color: #000;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-weight: 300;
+}
 .nav{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     font-weight: 420;
-    margin: 0;
-    padding: 0;
+   
 }
 
 .links{
@@ -75,6 +87,108 @@ h1{
     width: 60%;
 }
 
+.thrty{
+    width: 33.333%;
+
+}
+
+.products{
+    padding: 40px 0;
+  
+}
+
+.procontainer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.pro{
+    padding: 5px 0;
+    margin: 5px 10px 30px;
+    box-sizing: border-box;
+    background-color: #f4f5f5;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pix{
+    max-width: 95%;
+}
+
+.aligncent{
+    justify-content: center;
+
+}
+
+.callout{
+    padding: 100px 0 140px 0;
+    width: 450px;
+}
+
+p{
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    color: #616264;
+}
+
+.gal{
+    width: 100%;
+    max-height: 849px;
+}
+
+.footlogo{
+    padding: 32px 0 60px 0;
+}
+
+.footlogoicon{
+    width: 30px;
+    margin: auto;
+}
+
+.foot-newsletter{
+    width: 100%;
+    background-color: #f8f8f9;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.footcontain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.module{
+    padding: 0 15px;
+}
+
+.joinus{
+    letter-spacing: .15em;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footinput{
+    background-color: #f1f1f2;
+    padding: 15px;
+    letter-spacing: 0.019em;
+    border: 0.5px solid #4a4b4c;
+    outline: none;
+    margin-right: 15px;
+    box-sizing: border-box;
+    width: 225px;
+}
 /*When the page size gets less than 1000px the behaviour of each class can be reassigned*/
 @media (max-width: 1000px){
     .headercontainer{
@@ -88,6 +202,34 @@ h1{
         display: none;
     }
 
-    
+    .thrty{
+        width: 100%;
+    }
+
+    .procontainer{
+        flex-wrap: wrap;
+    }
+
+    .callout{
+        padding: 40px 0 80px;
+        max-width: 315px;
+        margin: auto;
+    }
+
+    .foot-newsletter{
+        padding: 30px 0 15px;
+    }
+
+    .footcontain{
+        flex-wrap: wrap;
+    }
+
+    .module{
+        margin-bottom: 15px;
+    }
+
+    .footinput{
+        width: 200px;
+    }
 
 }
