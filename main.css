@@ -149,6 +149,8 @@ p{
 .footlogoicon{
     width: 30px;
     margin: auto;
+    padding-bottom: 84px;
+    padding-top: 47px;
 }
 
 .foot-newsletter{
@@ -189,6 +191,36 @@ p{
     box-sizing: border-box;
     width: 225px;
 }
+
+.submit{
+    background-color: #58595b;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.039em;
+    padding: 15px 50px;
+    border: none;
+}
+
+.links:hover{
+    font-size: 13px;
+    animation-name: shake;
+   animation-duration: 1s;
+   animation-fill-mode: infinite;;
+}
+
+@keyframes shake {
+    20% {
+      transform: translateY(0px); }
+    40% {
+      transform: translateY(-15px); }
+    60% {
+      transform: translateY(0px); }
+    80% {
+      transform: translateY(-10px); }
+    100% {
+      transform: translateY(0px); } }
+
 /*When the page size gets less than 1000px the behaviour of each class can be reassigned*/
 @media (max-width: 1000px){
     .headercontainer{
@@ -230,6 +262,18 @@ p{
 
     .footinput{
         width: 200px;
+    }
+
+    .submit{
+        padding: 15px 30px;
+    }
+
+    .ic{
+        display: none;
+    }
+
+    .twnty{
+        width: 100%;
     }
 
 }
