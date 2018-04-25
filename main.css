@@ -209,6 +209,15 @@ p{
    animation-fill-mode: infinite;;
 }
 
+.links:link, .links:visited{
+    color: black;
+    text-decoration: none;
+}
+.icx:link, .icx:visited{
+    color: black;
+    text-decoration: none;
+}
+/*keyframe allows us to make animations in css*/
 @keyframes shake {
     20% {
       transform: translateY(0px); }
@@ -227,7 +236,6 @@ p{
         max-width: 95%;
         margin: auto;
         padding: 20px 0;
-        background-color: rgba(0, 255, 255, 0.027);
     }
 
     .nav{
@@ -274,6 +282,10 @@ p{
 
     .twnty{
         width: 100%;
+    }
+
+    .pro{
+        margin: 40px 30px;
     }
 
 }
